@@ -25,7 +25,7 @@ Block intervals must be tunned according to cores and number of tasks per batch.
 
 The __spark.default.parallelism__ it must be set to number of cores in local mode, in this case is 2.
 
-Finally spark.executor.memory has been tested from command line parameter to spark-submit wihout relevant performances differences seen in Spark UI. In this case the command was:
+Finally __spark.executor.memory__ has been tested from command line parameter to spark-submit wihout relevant performances differences seen in Spark UI. In this case the command was:
 ```r
 spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.3.4 --executor-memory 6GB --executor-cores 2 --master local[*] data_stream.py
 ```
