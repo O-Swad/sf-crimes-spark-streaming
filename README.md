@@ -8,7 +8,7 @@ output: html_document
   ## Step 3
 ### 1. How did changing values on the SparkSession property parameters affect the throughput and latency of the data?
 Usually it is mandatory to find the right balance of throughput rate and latency, because many times a higher throughput rate implies higher latency value, and viceversa.
-In this case, I will experiment with a subset of parameters related to the input rate, processing rate and batch duration. This paremeters are specified in the answer for question 2.
+In this case, I will experiment with a subset of parameters related to the input rate, processing rate and batch duration. These paremeters are specified in the answer for question 2.
 
 ### 2. What were the 2-3 most efficient SparkSession property key/value pairs? Through testing multiple variations on values, how can you tell these were the most optimal?
 
